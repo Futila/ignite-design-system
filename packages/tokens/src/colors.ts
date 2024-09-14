@@ -1,5 +1,4 @@
-
-//Colors exported from figma (Ignite Call layout) 
+// Colors exported from figma (Ignite Call layout)
 export const colors = {
   white: '#FFF',
   black: '#000',
