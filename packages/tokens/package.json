@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": { 
-  "@ignite-ui/react": "*",
+  "@ignite-ui/ts-config": "*",
   "tsup": "^8.2.4", 
   "typescript": "^5.6.2"
  
