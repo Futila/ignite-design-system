@@ -1,6 +1,7 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Button, ButtonProps } from '@ignite-ui/react'
-
+import { Button, ButtonProps as BaseButtonProps } from '@ignite-ui/react'
+import { VariantProps } from '@stitches/react'
+export type ButtonProps = BaseButtonProps & VariantProps<typeof Button>
 /*
   default - configuração global, aparece em todas as variações do componente
   Title: título da página desse story
